@@ -297,9 +297,7 @@ path_List_1 = [image_Path_2]
 
 seq_user_pred = seq_model.predict(img2Gray(path_List_1))[0][0]*100
 
-incv3_user_pred = incv3_model.predict(img2Gray(path_List_1))[0][0]*100
 
 print(f"Probability of Having Diabetic Retinopathy(Sequential model) : {seq_user_pred : .2f} %")
 
-print(f"Probability of Having Diabetic Retinopathy(InceptionV3 model) : {incv3_user_pred : .2f} %")
 
