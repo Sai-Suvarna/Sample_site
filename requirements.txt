@@ -1,8 +1,10 @@
 fastapi
-uvicorn[standard]
-python-multipart 
-fastapi-sqlalchemy 
-jinja2==3.0.3
-pillow
-numpy
-tensorflow
+fastapi-sqlalchemy
+pydantic
+alembic
+psycopg2
+uvicorn
+python-dotenv
+pandas
+Jinja2==3.0.3
+python-multipart
